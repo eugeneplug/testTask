@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+.container .header {
+  max-width: 1920px;
+  width: 100%;
+  height: 64px;
+}
+.container .header .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+}
+.container .header .navigation .nav__logo {
+  margin-right: 97px;
+}
+.container .header .navigation .ul__list {
+  display: flex;
+  font-size: 16px;
+  gap: 36px;
+}
+.container .header .navigation .nav__number a {
+  color: red;
+  font-weight: 600;
+  margin-left: 80px;
+}
+.container main {
+  display: flex;
+  background: #F8F8F8;
+  height: 413px;
+  background-image: url(/img/img.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.container main .main__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 238px;
+}
+.container main .main__block h1 {
+  font-size: 50px;
+  max-width: 725px;
+  width: 100%;
+}
+.container main .main__block a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 50px;
+  background-color: #EE2523;
+  color: white;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+.container .section {
+  padding-bottom: 64px;
+}
+.container .section .section__content h2 {
+  font-size: 30px;
+  margin-top: 64px;
+  margin-left: 238px;
+}
+.container .section .section__content .section__content__block {
+  display: flex;
+  margin-top: 40px;
+  gap: 60px;
+  justify-content: center;
+}
+.container .section .section__content .section__content__block .section__content__block__card {
+  max-width: 440px;
+  width: 100%;
+  height: 535px;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.12);
+}
+.container .section .section__content .section__content__block .section__content__block__card .card__img {
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+.container .section .section__content .section__content__block .section__content__block__card .card__img img {
+  width: 380px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .section .section__content .section__content__block .section__content__block__card h3 {
+  font-size: 24px;
+  padding-left: 30px;
+  padding-top: 24px;
+}
+.container .section .section__content .section__content__block .section__content__block__card .card__text {
+  padding-left: 30px;
+  padding-top: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  max-width: 325px;
+  width: 100%;
+}
+.container .section .section__content .section__content__block .section__content__block__card .card__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 47px;
+}
+.container .section .section__content .section__content__block .section__content__block__card .card__info .card__info__block1 {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+.container .section .section__content .section__content__block .section__content__block__card .card__info .card__info__block1 .card__info__price {
+  font-size: 48px;
+  font-weight: 500;
+}
+.container .section .section__content .section__content__block .section__content__block__card .card__info .card__info__block1 .card__info__text {
+  margin-left: 6px;
+}
+.container .section .section__content .section__content__block .section__content__block__card .card__info .card__info__block1 .card__info__text p {
+  font-weight: 500;
+}
+.container .section .section__content .section__content__block .section__content__block__card .card__info .card__info__block1 .card__info__text p:first-child {
+  text-decoration: underline;
+}
+.container .section .section__content .section__content__block .section__content__block__card .card__info .card__info__block1 .card__info__block1__flex {
+  display: flex;
+}
+.container .section .section__content .section__content__block .section__content__block__card .card__info .card__info__block1 .card__info__block1__flex .card__info__price2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.container .section .section__content .section__content__block .section__content__block__card .card__info .card__info__block2 {
+  padding-right: 30px;
+}
+.container .section .section__content .section__content__block .section__content__block__card .card__info .card__info__block2 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 180px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #EE2523;
+}/*# sourceMappingURL=style.css.map */

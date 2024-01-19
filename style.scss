@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+
+    .header {
+        max-width: 1920px;
+        width: 100%;
+        height: 64px;
+        // border: solid;
+        
+
+        .navigation {
+            display: flex;
+            align-items: center;
+            // justify-content: space-evenly;
+
+            justify-content: center;
+            height: 64px;
+
+            .nav__logo {
+                margin-right: 97px;
+            }
+            .ul__list {
+                display: flex;
+                font-size: 16px;
+                gap: 36px;
+            }
+            
+
+            .nav__number {
+                a {
+                    color: red;
+                    font-weight: 600;
+
+                    margin-left: 80px;
+                }
+            }
+        }
+    }
+
+
+    main {
+        display: flex;
+        background: #F8F8F8;
+        height: 413px;
+
+
+
+        background-image: url(/img/img.png);
+        background-position: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+
+        .main__block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            margin-left: 238px;
+
+
+            h1 {
+                font-size: 50px;
+                max-width: 725px;
+                width: 100%;
+                
+            }
+
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                width: 290px;
+                height: 50px;
+                background-color: #EE2523;
+                color: white;
+                border-radius: 8px;
+                margin-top: 40px;
+            }
+        }
+
+
+
+    }
+
+
+    .section {
+        padding-bottom: 64px;
+        .section__content {
+            h2 {
+                font-size: 30px;
+                margin-top: 64px;
+                margin-left: 238px;
+                
+            }
+                .section__content__block {
+                    display: flex;
+                    margin-top: 40px;
+                    gap: 60px;
+                    justify-content: center;
+                    .section__content__block__card {
+                        max-width: 440px;
+                        width: 100%;
+                        height: 535px;
+                        box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.12);
+
+                        .card__img {
+                            padding-top: 40px;
+                            padding-left: 30px;
+                            padding-right: 30px;
+                            box-sizing: border-box;
+
+                            img {
+                                width: 380px;
+                                height: 250px;
+                                object-fit: cover;
+                            }
+                        }
+
+                        h3 {
+                            font-size: 24px;
+                            padding-left: 30px; 
+                            padding-top: 24px;
+                        }
+                        .card__text {
+                            padding-left: 30px;
+                            padding-top: 12px;
+                            color: rgba(0, 0, 0, 0.50);
+                            max-width: 325px;
+                            width: 100%;
+                        }
+        
+
+                        .card__info {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            padding-top: 47px;
+
+                            .card__info__block1 {
+                                display: flex;
+                                align-items: center;
+                                padding-left: 30px;
+                                .card__info__price{
+                                    font-size: 48px;
+                                    font-weight: 500;
+                                }
+                                .card__info__text {
+                                    margin-left: 6px;
+                                    p {
+                                        font-weight: 500;
+                                    }
+                                    p:first-child {
+                                       text-decoration: underline; 
+                                    }
+                                }
+
+                                .card__info__block1__flex {
+                                    display: flex;
+                                    // align-items: baseline;
+                                    // margin-top: 10px;
+
+                                    .card__info__price2 {
+                                        font-size: 30px;
+                                        font-weight: 500;
+                                        margin-top: 15px;
+                                    }
+                                }
+                            }
+
+                            .card__info__block2 {
+                                padding-right: 30px;
+                                a {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+
+                                    color: white;
+                                    width: 180px;
+                                    height: 48px;
+                                    border-radius: 8px;
+                                    background-color: #EE2523;
+                                }
+                            }
+                        }
+        
+                    }
+
+                    
+                }
+            
+        }
+    }
+}
