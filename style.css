@@ -355,6 +355,13 @@ li {
   .container main .main__block .main__block__row {
     margin-top: 65px;
   }
+  .container .fixed .fixed__block {
+    width: 190px;
+    height: 54px;
+  }
+  .container .fixed {
+    top: 55%;
+  }
   .wrapper {
     max-width: 390px;
   }
