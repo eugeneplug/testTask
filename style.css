@@ -234,11 +234,6 @@ li {
   padding-top: 28px;
 }
 
-@media (max-width: 1920px) {
-  .container .fixed .fixed__block {
-    display: none;
-  }
-}
 @media (max-width: 1450px) {
   .container .section .section__content .section__content__block {
     flex-wrap: wrap;
